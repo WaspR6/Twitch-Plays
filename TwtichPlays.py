@@ -147,6 +147,8 @@ def twitch():
 	def loadingComplete(line):
 		if("End of /NAMES list" in line):
 			print("TwitchBot has joined " + CHANNEL + "'s Channel!")
+			# Below where it says "Bot Activated!!!!" Is what the twitch bot will say when it is activated and joins your chat. 
+			# This will be seen by your twitch chat. Change it to whatever you want or keep it as is. Have fun with it!!!
 			sendMessage(irc, "Bot Activated!!!!")
 			return False
 		else:
