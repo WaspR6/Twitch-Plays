@@ -9,7 +9,7 @@ ahk = AHK(executable_path='C:/Program Files/AutoHotkey/AutoHotkey.exe')
 SERVER = "irc.twitch.tv"
 PORT = 6667
 
-# Follow the following link to generate your password toaken. Paste that long ass gibrish inbetween the ""s. https://twitchapps.com/tmi/
+# Follow the following link to generate your password toaken. Paste that long ass gibrish inbetween the ""s. https://www.twitchapps.com/tmi/
 PASS = ""
 
 BOT = "TwitchBot"
